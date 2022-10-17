@@ -102,7 +102,7 @@ var ShipFactory = {
 
 ShipFactory.init()
 
-
+module.exports = ShipFactory;
 
 var GameBoard = {
         shipInfo: {name: '', verticalshipLength:'', horizontalshipLength:''},
